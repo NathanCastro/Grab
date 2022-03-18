@@ -8,23 +8,50 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet">
     <title>Grab - Login</title>
   </head>
   <body>
-    <section>
-      <div class="container-fluig">
-        <span>tesntando parte 1</span>
-       
-          
+    <section >
+      <div class="teste2 col-md-5">
+        <img src="assets/logo-grab.svg" alt="logo" class="logoTipo">
+          <form>
+            <div class="form-group">              
+              <input type="email" class="form-control" 
+              id="exampleInputEmail1" name="exampleInputEmail1" aria-describedby="emailHelp" 
+              placeholder="Enter email"
+              onblur="validarEmail()"
+              onfocus="redefinirMsg()"> 
+              <!-- <span class="material-icons-outlined grupo-span">
+                alternate_email
+              </span> -->
+              <span id="error-email"></span>
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <button type="submit" class="btn buttonLogin">Entrar</button>
+            <footer class="rodape">
+              <span>
+                Problemas para entrar?
+              </span><br>
+              <span id="negrito">
+                Clique aqui
+              </span>
+            </footer>
+          </form>
       </div>
-      <div class="container">
-        <span>testando parte 2</span>
-      </div>
+      <!-- <div class="teste3 col-md-7">
+        <img src="assets/team.jpg" alt="meet" class="imagem2">
+      </div> -->
     </section>
     
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3881ab6355.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
   </body>
 </html>

@@ -1,7 +1,66 @@
-.container-fluig{
-    background:red;
+
+.teste2{
+    background-color: #4E5BEE;
+    height: 100vh;
+    text-align: center;
 }
 
-.container{
-    background-color: blue;
+.logoTipo{
+    color: #E5E5E5;
+    width: 15vw;
+    margin: 37% 0 18%;
 }
+
+.imagem2{
+    width: 35vw;
+}
+input{
+    border-radius: 17px!important;
+    margin: 17px auto 18px!important;
+    width: 50%!important;
+    background-color: #4E5BEE!important;
+}
+#exampleInputEmail1{
+    background-repeat: no-repeat;
+    background-image: url(./assets/alternate_email_white_24dp.svg);
+    text-align: center;
+}
+button{
+    border-radius: 17px!important;
+    margin: 17px auto 18px!important;
+    width: 50%!important;
+    
+}
+
+
+input:invalid{
+    border-color: #FF5757;
+    box-shadow: 0px 0px 3px #FF5757;
+}
+
+input:focus{
+    outline: none;
+}
+
+input:focus:invalid{
+    box-shadow: none;
+}
+
+#erro-email{
+    color: black;
+}
+
+.rodape{
+    left: 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    color: #fff;
+}
+
+#negrito{
+    font-weight: bold;
+}
+
+
+
