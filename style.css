@@ -14,17 +14,39 @@
 .imagem2{
     width: 35vw;
 }
+#exampleInputEmail1{    
+    text-align: center;
+}
 input{
     border-radius: 17px!important;
     margin: 17px auto 18px!important;
     width: 50%!important;
     background-color: #4E5BEE!important;
 }
-#exampleInputEmail1{
+/* #exampleInputEmail1{
     background-repeat: no-repeat;
     background-image: url(./assets/alternate_email_white_24dp.svg);
     text-align: center;
+    padding-left:23px;    
+	padding-top:5px;       
+
+} */
+
+
+.form-group{
+    position: relative;
 }
+.form-group .grupo-span{
+    position: absolute;
+    left: 138px;
+    top: 8px;
+    color: #fff;
+}
+
+.form-group input[type=text]:focus + .grupo-span{
+    color: #FF5757;
+}
+
 button{
     border-radius: 17px!important;
     margin: 17px auto 18px!important;
